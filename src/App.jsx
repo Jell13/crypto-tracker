@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <div className='font-bold text-blue-600'>
-        Hello World
+      <div className='h-screen w-screen bg-gradient-to-b from-[#0b004e] via-[#1d152f] to-[#002834]'>
+        
       </div>
     </>
   )
