@@ -24,8 +24,8 @@ const Navbar = () => {
         }
     ]
   return (
-    <div className='text-white flex items-center w-full justify-between lg:px-32 py-6 h-20 border-b-2 border-gray-600 fixed'>
-      <h1>CryptoTrack</h1>
+    <div className='text-white flex items-center w-full justify-between lg:px-32 py-6 h-20 border-b-2 border-gray-600'>
+      <h1 className='text-2xl font-bold'>CryptoTrack</h1>
       <ul className='flex gap-8 cursor-pointer'>
         {links.map(({content, id, path})  => (
             <li key={id} className='group hover:scale-110 duration-300 relative'>{content}
