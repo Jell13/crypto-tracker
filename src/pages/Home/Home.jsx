@@ -11,6 +11,15 @@ const Home = () => {
             <button type='submit' className='bg-purple-500 hover:bg-white hover:text-purple-500 px-2 duration-500 rounded-md p-1'>Search</button>
         </form>
       </div>
+      <div className='max-w-[800px] m-auto bg-[#0b004e] rounded-lg'>
+        <div className='grid grid-cols-5 items-center px-4 py-5 border-b-[1px] border-[#3c3c3c] rounded-lg'>
+          <p>#</p>
+          <p>Coins</p>
+          <p className=''>Price</p>
+          <p className='text-center'>24H Change</p>
+          <p className='text-right'>Market Cap</p>
+        </div>
+      </div>
     </div>
   )
 }
